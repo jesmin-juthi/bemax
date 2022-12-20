@@ -29,7 +29,6 @@ a{
 }
 
 .row{
-    background-color: red;
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -156,6 +155,10 @@ header{
 
 /* slide area start */
 
+.slider-area {
+    margin-bottom: -25px;
+}
+
 .single-slide{
     color: #fff;
     text-transform: uppercase;
@@ -238,6 +241,47 @@ header{
 /* cta area */
 
 .cta-area{
-    padding: 50px 0 70px;
+    padding: 50px 0;
+    overflow: hidden;
     background-color: #4272d7;
+}
+
+.cta-title{
+    color: #fff;
+}
+
+.cta-title h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cta-title span{
+    font-size: 30px;
+}
+
+.cta-btn {
+    text-align: right;
+}
+.cta-btn a {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.cta-btn a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* services area */
+
+.services {
+    padding: 70px 0;
+    overflow: hidden;
 }
