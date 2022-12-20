@@ -77,6 +77,7 @@ header{
 .navbar ul li .dropdown{
     top: 110%;
     left: 0;
+    z-index: 99;
 }
 
 .navbar ul li .dropdown li{
@@ -133,3 +134,83 @@ header{
     left: 0;
     top: 2px;
 }
+
+/* slide area start */
+
+.single-slide{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 175px 0;
+}
+.single-slide h4{
+    font-size: 30px;
+}
+.single-slide h2{
+    font-size: 72px;
+    font-weight: 900;
+}
+.single-slide a{
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 40px;
+    background-color: #4272d7;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.owl-theme .owl-nav button{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #3d3d3d !important;
+    color: #fff !important;
+    position: absolute;
+    top: 45%;
+    left: 50px;
+    transition: .3s;
+}
+
+.owl-theme .owl-nav button:hover{
+    background-color: #4272d7 !important;
+}
+
+/*.owl-theme .owl-nav button.owl-prev{*/
+/*    top: 40%;*/
+/*    left: 0;*/
+/*}*/
+
+.owl-nav button.owl-next{
+    right: 50px;
+    left: auto;
+}
+
+/*.owl-dots {*/
+/*    position: relative;*/
+/*    z-index: 99;*/
+/*    margin-top: -50px;*/
+/*}*/
+
+.owl-dots{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    margin-top: -50px;
+}
+
+.owl-dot {
+    background: #bdbdbd !important;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.owl-dot.active{
+    background: #4272d7 !important;
+    height: 15px;
+    width: 15px;
+}
+
+/* slide area end */
